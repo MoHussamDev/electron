@@ -1,0 +1,35 @@
+$topbarHeight : 7vh;
+.l-navbar{
+    background-color: #343a40;
+    height: $topbarHeight  ;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    &_logo{
+        height: 100%;
+        line-height: 50px;
+        color: white;
+        font-size:22px;
+        text-decoration: none;
+    }
+    &_navigation{
+        list-style: none;
+        display:flex;
+        padding-left:0px;
+        margin:0px;
+        height: 50px;
+        li{
+            line-height: 50px;
+            a{
+                color :white;
+                font-size:14px;
+                cursor:pointer;
+                &:hover{
+                    color:white;
+                }
+            }
+        }
+    }
+}
