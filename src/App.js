@@ -6,6 +6,7 @@ import Home from './screens/home';
 import AllProducts from './screens/AllProducts';
 import NewProduct from './screens/NewProduct';
 import Navigation from './layout/navigation';
+import AddProduct from './screens/addProduct';
 
 
 
@@ -33,6 +34,10 @@ const App = () => {
   return  <NewProduct/>;
 }}/>
 
+<Route path="/addproduct" render = {()=>{
+  return <AddProduct/>
+}}
+/>
 </div>
 <div className="col-md-2">
 

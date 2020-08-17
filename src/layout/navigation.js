@@ -32,8 +32,8 @@ const Navigation = (props)=> {
 
                 <li><Link to="/"> <p>الرئيسية<i className="fas fa-poll-h"></i></p></Link></li>
                 <li><Link to="/allproducts"> <p> المنتجات<i className="fas fa-poll-h"></i></p></Link></li>
-                <li><Link to="/"> <p> الكاشير<i className="fas fa-poll-h"></i></p></Link></li>
-                <li><Link to="/"> <p> الأحصائيات و التقارير <i className="fas fa-poll-h"></i></p></Link></li>
+                <li><Link to="/addnewproduct"> <p> الكاشير<i className="fas fa-poll-h"></i></p></Link></li>
+                <li><Link to="/addproduct"> <p> الأحصائيات و التقارير <i className="fas fa-poll-h"></i></p></Link></li>
             </ul>
             </div>
         </div>
